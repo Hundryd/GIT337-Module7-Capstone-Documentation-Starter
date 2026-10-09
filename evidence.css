@@ -55,6 +55,18 @@ a {
     overflow-wrap: anywhere;
 }
 
+.url-link {
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: .15em;
+}
+
+.print-url {
+    display: block;
+    margin-block-start: .25rem;
+    overflow-wrap: anywhere;
+}
 
 .screenshots {
     grid-template-columns: 1fr 1fr;
@@ -89,6 +101,11 @@ a {
     }
 
     a {
-        color: #191919;
+        color: #0645ad;
+    }
+
+    .url-link {
+        color: #0645ad;
+        text-decoration: underline;
     }
 }
