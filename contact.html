@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#080808">
-    <meta name="description" content="About Hundryd and current contact availability.">
+    <meta name="description" content="About Hundryd and an email contact form.">
     <title>About &amp; Contact | Hundryd</title>
     <link rel="icon" href="assets/Hundryd%20Logo%20Rounded%20Edge.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
@@ -49,13 +49,29 @@
             <div class="contact-intro">
                 <p class="eyebrow">Contact</p>
                 <h2 id="contact-title">Contact information</h2>
-                <p>This page is for collaboration, booking, or other questions. Contact details are not available yet.
+                <p>For collaboration, booking, or other questions, send me a message using the form.
                 </p>
             </div>
-            <div class="contact-unavailable" role="note" aria-labelledby="contact-status">
-                <h3 id="contact-status">Contact form not available yet</h3>
-                <p>I have not added a working contact address. This site cannot receive messages right now.</p>
-                <p>I will add a contact method here when it is ready.</p>
+            <div class="contact-form-card">
+                <form class="contact-form" action="mailto:hundryd@gmail.com" method="post" enctype="text/plain"
+                    aria-describedby="contact-help">
+                    <div class="form-field">
+                        <label for="contact-name">Your name</label>
+                        <input id="contact-name" name="Name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-email">Your email</label>
+                        <input id="contact-email" name="Email" type="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="Message" rows="6" required></textarea>
+                    </div>
+                    <p class="form-note" id="contact-help">All fields are required; enter a valid email address.
+                        Submitting opens your default email app with your message. Review it and press Send. If the
+                        app does not open, configure a default email app and try again.</p>
+                    <button class="button button-primary" type="submit">Open email to send</button>
+                </form>
             </div>
         </section>
     </main>

@@ -426,23 +426,10 @@ audio:focus-visible {
     gap: 2rem;
 }
 
-.contact-unavailable {
+.contact-form-card {
     padding: clamp(1.25rem, 4vw, 2rem);
     border: 1px solid var(--line);
     background: rgb(8 8 8 / 88%);
-}
-
-.contact-unavailable h3 {
-    margin: 0;
-    font-size: 1.2rem;
-}
-
-.contact-unavailable p {
-    color: var(--muted);
-}
-
-.contact-unavailable p:last-child {
-    margin-bottom: 0;
 }
 
 .contact-form {
