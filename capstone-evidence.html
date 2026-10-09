@@ -21,16 +21,17 @@
                 <dd>Listeners who want to find my music, people interested in working with me, and event organizers.
                 </dd>
                 <dt>What should visitors be able to do?</dt>
-                <dd>Listen to my music, learn about me, and get in touch.</dd>
+                <dd>Play or download my tracks, learn about the project, and check whether contact is available.</dd>
                 <dt>My three pages</dt>
-                <dd>Home introduces Hundryd. Music is for my releases. About &amp; Contact shares a little about me and
-                    has a contact form.</dd>
+                <dd>Home introduces Hundryd. Music lists my tracks and players. About &amp; Contact shares a little
+                    about me and explains that contact is not available yet.</dd>
                 <dt>Repository</dt>
                 <dd>
                     <a class="url-link" href="https://github.com/Hundryd/GIT337-Module7-Capstone-Documentation-Starter">
                         Open GitHub repository
                     </a>
-                    <code class="print-url">https://github.com/Hundryd/GIT337-Module7-Capstone-Documentation-Starter</code>
+                    <code
+                        class="print-url">https://github.com/Hundryd/GIT337-Module7-Capstone-Documentation-Starter</code>
                 </dd>
                 <dt>Published site</dt>
                 <dd>
@@ -71,18 +72,19 @@
                         </tr>
                         <tr>
                             <th scope="row">Table</th>
-                            <td>Music page release list</td>
-                            <td>New, replace examples with my real releases</td>
+                            <td>Music page track list</td>
+                            <td>Added my two tracks and links from each row to its player</td>
                         </tr>
                         <tr>
                             <th scope="row">Form</th>
                             <td>About &amp; Contact page</td>
-                            <td>New, add my real email before publishing</td>
+                            <td>Removed the sample-address form, the page says contact is unavailable until I add a real
+                                destination</td>
                         </tr>
                         <tr>
                             <th scope="row">SVG and shape</th>
                             <td>Cover art and decorative shapes</td>
-                            <td>New, original monochrome SVG artwork</td>
+                            <td>Added the monochrome orbital cover SVG to the Home page</td>
                         </tr>
                         <tr>
                             <th scope="row">Positioning and layering</th>
@@ -107,17 +109,20 @@
         <section>
             <h2>3. Release checks</h2>
             <ul>
-                <li><strong>Pages and images:</strong> All three pages opened locally, my logo, background, and cover
-                    loaded.</li>
-                <li><strong>Small screen:</strong> The preview showed 381 pixels of page width with no page overflow.
-                    The table can scroll on its own. A true 320-pixel and 200% zoom check is still needed.</li>
-                <li><strong>Keyboard:</strong> The skip link and visible keyboard focus work.</li>
-                <li><strong>Contact form:</strong> Fields are labeled. Empty and invalid email entries are rejected;
-                    valid test entries pass. I still need to test with my real email.</li>
-                <li><strong>Motion and browsers:</strong> Reduced motion is supported and the site needs no JavaScript.
-                    A second-browser check is still needed.</li>
-                <li><strong>Publishing:</strong> Formal HTML/CSS validation and public-link checks are still needed
-                    after I publish the site.</li>
+                <li><strong>Published pages and media:</strong> I checked all three live pages. Both waveform images
+                    and audio files load, both players loaded metadata and played with sound muted. Track 142 is
+                    about 2:47 and Track 38 is about 1:10.</li>
+                <li><strong>Small screen:</strong> All three published pages had no horizontal overflow in Edge at
+                    320 CSS pixels and at 720 CSS pixels with device scale factor 2. The second viewport is
+                    equivalent to 200% zoom on a 1440 CSS-pixel display. I did not toggle the browser zoom control.</li>
+                <li><strong>Keyboard:</strong> The pages have skip links and visible focus. Keyboard activation of
+                    the skip links was checked on the local pages, pressing Tab focused the link and Enter moved to
+                    main.</li>
+                <li><strong>Contact:</strong> No real contact destination is available. The published page clearly
+                    says visitors cannot send a message yet.</li>
+                <li><strong>Still to do:</strong> Direct browser 200% zoom check, confirm permission to republish my
+                    supplied logo and background, formal HTML/CSS validation, and record and add my code-defense URL.
+                </li>
             </ul>
         </section>
 
@@ -134,20 +139,22 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">The cover artwork made the page too wide on small screens.</th>
-                            <td>I fixed the image sizing and adjusted its decoration.</td>
-                            <td>Reloaded the home page at the preview's 381-pixel width. The page fits with no
-                                horizontal overflow.</td>
+                            <th scope="row">The draft needed small-screen checks and a keyboard skip path.</th>
+                            <td>I kept the cover responsive and added a skip link to the Home page.</td>
+                            <td>All three live pages passed the 320px and 720px/DPR 2 overflow checks. I checked
+                                skip-link activation on the local pages.</td>
                         </tr>
                         <tr>
-                            <th scope="row">The Music page still has example releases.</th>
-                            <td>I need to add my real song titles and listening links.</td>
-                            <td>Pending my release details.</td>
+                            <th scope="row">The published Music page and tracks did not match my completed draft.</th>
+                            <td>I published the track table, players, audio files, and waveforms.</td>
+                            <td>Both waveforms loaded, both audio tracks loaded metadata and played in the published
+                                players.</td>
                         </tr>
                         <tr>
-                            <th scope="row">The contact page still uses a sample email address.</th>
-                            <td>I need to replace it with an address I use and test sending.</td>
-                            <td>Form validation works locally, real email delivery is not tested yet.</td>
+                            <th scope="row">The contact form had no real destination.</th>
+                            <td>I removed the sample-address form and marked contact as unavailable.</td>
+                            <td>The published page makes clear that messages cannot be sent. A working contact method
+                                remains to be added.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -158,16 +165,14 @@
             <h2>5. Screenshots</h2>
             <div class="screenshots">
                 <figure>
-                    <img src="home-screen-with-svg.png"
-                        alt="Desktop screenshot of the home page layout with the supplied Hundryd logo and background.">
-                    <figcaption><strong>Home page layout.</strong> Desktop view showing the shared logo, background,
-                        navigation, and home-page structure.</figcaption>
+                    <img src="screenshots/home-screen-with-svg.png"
+                        alt="Published desktop view of Hundryd's home page with the orbital cover.">
+                    <figcaption><strong>Published Home page.</strong> Desktop view of my current site.</figcaption>
                 </figure>
                 <figure>
-                    <img src="320px-fix.png"
-                        alt="Screenshot of the home page layout in a 320-pixel-wide responsive browser view.">
-                    <figcaption><strong>Mobile layout check.</strong> 320-pixel responsive view used to check the
-                        repaired home-page image sizing.</figcaption>
+                    <img src="screenshots/320px-fix.png" alt="Published Home page at a 320 CSS-pixel browser viewport.">
+                    <figcaption><strong>Published Home page at 320 CSS pixels.</strong> Edge responsive viewport test.
+                    </figcaption>
                 </figure>
             </div>
         </section>
@@ -181,9 +186,11 @@
                 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion">MDN reduced
                     motion</a>.
             </p>
-            <p><strong>Images:</strong> I created the Hundryd logo and background.</p>
-            <p><strong>AI disclosure:</strong> I used GitHub Copilot autocomplete while writing to speed up the
-                development process.</p>
+            <p><strong>Assets:</strong> I supplied the logo, background, and audio tracks. I still need to confirm
+                permission to republish the logo and background. The orbital cover SVG was recreated with AI
+                assistance, and the waveforms were generated from my audio.</p>
+            <p><strong>AI disclosure:</strong>I used GitHub Copilot autocomplete while writing to speed up the
+                development process. AI also assisted with creating the placeholder orbital cover SVG.</p>
         </section>
     </main>
 </body>
