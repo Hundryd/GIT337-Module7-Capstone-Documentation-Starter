@@ -51,6 +51,37 @@ dd {
     margin-block-end: .75rem;
 }
 
+a {
+    overflow-wrap: anywhere;
+}
+
+
+.screenshots {
+    grid-template-columns: 1fr 1fr;
+}
+
+.screenshots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+    gap: 1rem;
+}
+
+.screenshots figure {
+    margin: 0;
+}
+
+.screenshots img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #747474;
+}
+
+.screenshots figcaption {
+    margin-block-start: .5rem;
+    font-size: .9rem;
+}
+
 @media print {
     body {
         max-width: none;
