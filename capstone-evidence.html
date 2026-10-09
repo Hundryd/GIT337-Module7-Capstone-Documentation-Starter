@@ -3,101 +3,163 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>GIT 337 Capstone Evidence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hundryd | Capstone Checkpoint</title>
     <link rel="stylesheet" href="evidence.css">
 </head>
 
 <body>
     <header>
-        <h1>GIT 337 Final Capstone Evidence</h1>
-        <p>Replace every bracketed prompt. Keep this concise and export it as one PDF for Canvas.</p>
+        <h1>Hundryd: Capstone Checkpoint</h1>
+        <p>A three page website for my music, made in monochrome style with my logo and background assets.</p>
     </header>
     <main>
         <section>
-            <h2>1. Project and URLs</h2>
+            <h2>1. My project</h2>
             <dl>
-                <dt>Project, audience, and purpose</dt>
-                <dd>[Two or three sentences]</dd>
-                <dt>Priority tasks</dt>
-                <dd>[Two or three tasks]</dd>
-                <dt>Pages</dt>
-                <dd>[Three or four page names]</dd>
-                <dt>Repository</dt>
-                <dd>[URL]</dd>
-                <dt>Published site</dt>
-                <dd>[URL]</dd>
-                <dt>Code defense</dt>
-                <dd>[URL or live-defense statement]</dd>
+                <dt>Who is it for?</dt>
+                <dd>Listeners who want to find my music, people interested in working with me, and event organizers.
+                </dd>
+                <dt>What should visitors be able to do?</dt>
+                <dd>Listen to my music, learn about me, and get in touch.</dd>
+                <dt>My three pages</dt>
+                <dd>Home introduces Hundryd. Music is for my releases. About &amp; Contact shares a little about me and
+                    has a contact form.</dd>
+                <dt>Repository and published site</dt>
+                <dd>Not set up yet. I still need to upload the site, publish it, and add the public URLs here.</dd>
             </dl>
         </section>
+
         <section>
-            <h2>2. Concise Requirement Map</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Requirement</th>
-                        <th>Location</th>
-                        <th>Purpose</th>
-                        <th>Reuse decision</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>[Course component]</td>
-                        <td>[Page/component/file]</td>
-                        <td>[Why it belongs]</td>
-                        <td>[Adapt, refactor, replace, omit, or new]</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>Add enough rows to locate semantic structure, the design system, figure, table, form, SVG,
-                navigation/layout, positioning/layering, shape, effect/motion, testing, and documentation.</p>
+            <h2>2. Requirement map</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Requirement</th>
+                            <th scope="col">Where it is</th>
+                            <th scope="col">Plan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Semantic pages and navigation</th>
+                            <td>Header, navigation, main content, and footer on all three pages</td>
+                            <td>New, shared layout</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Design system</th>
+                            <td><code>styles.css</code></td>
+                            <td>New, shared black-and-white styles</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Figure and image</th>
+                            <td>Home page cover, my logo and background on all pages</td>
+                            <td>Use my supplied images, create monochrome cover art</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Table</th>
+                            <td>Music page release list</td>
+                            <td>New, replace examples with my real releases</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Form</th>
+                            <td>About &amp; Contact page</td>
+                            <td>New, add my real email before publishing</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">SVG and shape</th>
+                            <td>Cover art and decorative shapes</td>
+                            <td>New, original monochrome SVG artwork</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Positioning and layering</th>
+                            <td>Home page cover and feature card</td>
+                            <td>New, adjusted for small screens</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Effects and motion</th>
+                            <td>Shared CSS hover, focus, and reduced-motion styles</td>
+                            <td>New, reduced-motion support included</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Testing and documentation</th>
+                            <td>This evidence page</td>
+                            <td>Adapted from the supplied checkpoint template</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
+
         <section>
-            <h2>3. Focused Release Check</h2>
+            <h2>3. Release checks</h2>
             <ul>
-                <li>HTML and CSS validation: [result]</li>
-                <li>Published links and assets: [result]</li>
-                <li>320 CSS pixels and 200% zoom: [result]</li>
-                <li>Keyboard and visible focus: [result]</li>
-                <li>Form labels, constraints, errors, and recovery: [result]</li>
-                <li>Reduced motion and JavaScript unavailable: [result]</li>
-                <li>Two current browsers: [result]</li>
+                <li><strong>Pages and images:</strong> All three pages opened locally, my logo, background, and cover
+                    loaded.</li>
+                <li><strong>Small screen:</strong> The preview showed 381 pixels of page width with no page overflow.
+                    The table can scroll on its own. A true 320-pixel and 200% zoom check is still needed.</li>
+                <li><strong>Keyboard:</strong> The skip link and visible keyboard focus work.</li>
+                <li><strong>Contact form:</strong> Fields are labeled. Empty and invalid email entries are rejected;
+                    valid test entries pass. I still need to test with my real email.</li>
+                <li><strong>Motion and browsers:</strong> Reduced motion is supported and the site needs no JavaScript.
+                    A second-browser check is still needed.</li>
+                <li><strong>Publishing:</strong> Formal HTML/CSS validation and public-link checks are still needed
+                    after I publish the site.</li>
             </ul>
         </section>
+
         <section>
-            <h2>4. Three Findings and Repairs</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Finding and condition</th>
-                        <th>Impact</th>
-                        <th>Repair</th>
-                        <th>Exact retest and result</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>[What happened and under which condition]</td>
-                        <td>[Affected content, task, or user]</td>
-                        <td>[What changed]</td>
-                        <td>[Repeated condition and observed result]</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>Add two more rows.</p>
+            <h2>4. Three findings and what I did</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Finding</th>
+                            <th scope="col">Repair or next step</th>
+                            <th scope="col">Retest</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">The cover artwork made the page too wide on small screens.</th>
+                            <td>I fixed the image sizing and adjusted its decoration.</td>
+                            <td>Reloaded the home page at the preview's 381-pixel width. The page fits with no
+                                horizontal overflow.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">The Music page still has example releases.</th>
+                            <td>I need to add my real song titles and listening links.</td>
+                            <td>Pending my release details.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">The contact page still uses a sample email address.</th>
+                            <td>I need to replace it with an address I use and test sending.</td>
+                            <td>Form validation works locally, real email delivery is not tested yet.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
+
         <section>
             <h2>5. Screenshots</h2>
-            <p>[Insert two or three labeled screenshots. Connect each screenshot to a requirement, test, or repair.]</p>
+            <p>I still need to add two labeled screenshots: the home page after the mobile repair, and the Music or
+                Contact page after I add my real details.</p>
         </section>
+
         <section>
-            <h2>6. Sources, Assets, and AI</h2>
-            <p><strong>MDN/official sources:</strong> [Concise list with links]</p>
-            <p><strong>Assets and licenses:</strong> [Asset, creator, source, license/permission, and modification]</p>
-            <p><strong>AI disclosure:</strong> [State “No generative AI was used,” or document the tool, purpose,
-                meaningful assistance, verification, and final decision.]</p>
+            <h2>6. Sources and AI disclosure</h2>
+            <p><strong>Reference:</strong>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">MDN navigation</a>,
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">MDN tables</a>,
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">MDN forms</a>, and
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion">MDN reduced
+                    motion</a>.
+            </p>
+            <p><strong>Images:</strong> I created the Hundryd logo and background.</p>
+            <p><strong>AI disclosure:</strong> I used GitHub Copilot autocomplete while writing to speed up the
+                development process.</p>
         </section>
     </main>
 </body>
