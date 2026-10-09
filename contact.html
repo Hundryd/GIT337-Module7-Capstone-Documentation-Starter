@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#080808">
-    <meta name="description" content="About Hundryd and how to get in touch.">
+    <meta name="description" content="About Hundryd and current contact availability.">
     <title>About &amp; Contact | Hundryd</title>
-    <link rel="icon" href="Hundryd%20Logo%20Rounded%20Edge.png" type="image/png">
+    <link rel="icon" href="assets/Hundryd%20Logo%20Rounded%20Edge.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,7 +15,7 @@
     <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
         <a class="brand" href="index.html" aria-label="Hundryd home">
-            <img src="Hundryd%20Logo%20Rounded%20Edge.png" width="42" height="42" alt="">
+            <img src="assets/Hundryd%20Logo%20Rounded%20Edge.png" width="42" height="42" alt="">
             <span>HUNDRYD</span>
         </a>
         <nav aria-label="Main navigation">
@@ -48,46 +48,21 @@
         <section class="contact-section" aria-labelledby="contact-title">
             <div class="contact-intro">
                 <p class="eyebrow">Contact</p>
-                <h2 id="contact-title">Send me a message</h2>
-                <p>Use this form for a collaboration, booking, or other question. Replace the sample email address
-                    with your real contact address before publishing.</p>
+                <h2 id="contact-title">Contact information</h2>
+                <p>This page is for collaboration, booking, or other questions. Contact details are not available yet.
+                </p>
             </div>
-            <form class="contact-form" action="mailto:hello@hundryd.example" method="post" enctype="text/plain">
-                <div class="form-field">
-                    <label for="name">Your name</label>
-                    <input id="name" name="name" autocomplete="name" required maxlength="80">
-                </div>
-                <div class="form-field">
-                    <label for="email">Your email</label>
-                    <input id="email" name="email" type="email" autocomplete="email" required maxlength="254"
-                        aria-describedby="email-hint">
-                    <p class="field-hint" id="email-hint">Enter a valid email address so I can reply.</p>
-                </div>
-                <div class="form-field">
-                    <label for="reason">What is your message about?</label>
-                    <select id="reason" name="reason" required>
-                        <option value="" selected disabled>Choose a topic</option>
-                        <option value="Collaboration">Collaboration</option>
-                        <option value="Booking">Booking</option>
-                        <option value="Other">Something else</option>
-                    </select>
-                </div>
-                <div class="form-field">
-                    <label for="message">Your message</label>
-                    <textarea id="message" name="message" rows="5" required maxlength="2000"></textarea>
-                    <p class="field-hint">Complete the required fields. If the browser flags an entry, check it and try
-                        again.</p>
-                </div>
-                <button class="button button-primary" type="submit">Send message</button>
-                <p class="form-note">This form opens your email app, it does not store messages. Sending requires an
-                    email app configured on your device.</p>
-            </form>
+            <div class="contact-unavailable" role="note" aria-labelledby="contact-status">
+                <h3 id="contact-status">Contact form not available yet</h3>
+                <p>I have not added a working contact address. This site cannot receive messages right now.</p>
+                <p>I will add a contact method here when it is ready.</p>
+            </div>
         </section>
     </main>
 
     <footer class="site-footer">
         <a class="brand brand-footer" href="index.html">
-            <img src="Hundryd%20Logo%20Rounded%20Edge.png" width="32" height="32" alt="">
+            <img src="assets/Hundryd%20Logo%20Rounded%20Edge.png" width="32" height="32" alt="">
             <span>HUNDRYD</span>
         </a>
         <p>Independent music by Hundryd.</p>

@@ -5,17 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#080808">
-    <title>[Artist name] | Music</title>
-    <link rel="icon" href="Hundryd%20Logo%20Rounded%20Edge.png" type="image/png">
+    <meta name="description" content="Release information and listening links for Hundryd's music.">
+    <title>Music | Hundryd</title>
+    <link rel="icon" href="assets/Hundryd%20Logo%20Rounded%20Edge.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
-        <a class="brand" href="index.html" aria-label="[Artist name] home">
-            <img src="Hundryd%20Logo%20Rounded%20Edge.png" width="42" height="42" alt="">
-            <span>[Artist name]</span>
+        <a class="brand" href="index.html" aria-label="Hundryd home">
+            <img src="assets/Hundryd%20Logo%20Rounded%20Edge.png" width="42" height="42" alt="">
+            <span>HUNDRYD</span>
         </a>
         <nav aria-label="Main navigation">
             <ul class="nav-list">
@@ -28,60 +29,99 @@
 
     <main id="main" class="page-main">
         <section class="page-heading" aria-labelledby="page-title">
-            <p class="eyebrow">[Section label]</p>
-            <h1 id="page-title">[Music page heading]</h1>
-            <p>[Brief introduction to the releases.]</p>
+            <p class="eyebrow">Listen</p>
+            <h1 id="page-title">Hundryd's music</h1>
+            <p>Listen to my tracks below. Use the player controls to play, pause, or move through a track.</p>
         </section>
 
-        <section class="release-section" aria-labelledby="releases-title">
+        <section class="tracks-section" aria-labelledby="tracks-title">
             <div class="section-heading">
                 <div>
-                    <p class="eyebrow">[Section label]</p>
-                    <h2 id="releases-title">[Release list heading]</h2>
+                    <p class="eyebrow">Listen</p>
+                    <h2 id="tracks-title">My tracks</h2>
                 </div>
-                <p class="section-note">[Short note about this list.]</p>
+                <p class="section-note">Choose a track to jump to its waveform and player.</p>
             </div>
-            <div class="table-scroll" tabindex="0" role="region" aria-label="Release list">
+            <div class="table-scroll" tabindex="0" role="region" aria-label="Track list">
                 <table class="release-table">
-                    <caption>[Description of the release list]</caption>
+                    <caption>Available tracks and audio formats</caption>
                     <thead>
                         <tr>
-                            <th scope="col">[Release]</th>
-                            <th scope="col">[Format]</th>
-                            <th scope="col">[Status]</th>
-                            <th scope="col">[Listen]</th>
+                            <th scope="col">Track</th>
+                            <th scope="col">Format</th>
+                            <th scope="col">Listen</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">[Release title]</th>
-                            <td>[Format]</td>
-                            <td><span class="release-status">[Status]</span></td>
-                            <td><a class="text-link" href="[Listening URL]">[Listen link]</a></td>
+                            <th scope="row">142</th>
+                            <td>MP3</td>
+                            <td><a class="text-link" href="#track-142">Go to Track 142 player</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">38</th>
+                            <td>WAV</td>
+                            <td><a class="text-link" href="#track-38">Go to Track 38 player</a></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="table-note">[Optional note about releases.]</p>
+            <ol class="track-list">
+                <li>
+                    <article class="track-card" id="track-142" aria-labelledby="track-142-title">
+                        <div class="track-heading">
+                            <div>
+                                <p class="eyebrow">Track 01 · MP3</p>
+                                <h3 id="track-142-title">142</h3>
+                            </div>
+                            <a class="text-link track-download" href="music/142.mp3" download>Download MP3</a>
+                        </div>
+                        <img class="track-waveform" src="assets/track-142-waveform.svg" width="680" height="72" alt=""
+                            aria-hidden="true">
+                        <audio controls preload="metadata" aria-label="Play Track 142">
+                            <source src="music/142.mp3" type="audio/mpeg">
+                            Your browser does not support audio playback. <a href="music/142.mp3">Download Track
+                                142</a>.
+                        </audio>
+                    </article>
+                </li>
+                <li>
+                    <article class="track-card" id="track-38" aria-labelledby="track-38-title">
+                        <div class="track-heading">
+                            <div>
+                                <p class="eyebrow">Track 02 · WAV</p>
+                                <h3 id="track-38-title">38</h3>
+                            </div>
+                            <a class="text-link track-download" href="music/38.wav" download>Download WAV</a>
+                        </div>
+                        <img class="track-waveform" src="assets/track-38-waveform.svg" width="680" height="72" alt=""
+                            aria-hidden="true">
+                        <audio controls preload="metadata" aria-label="Play Track 38">
+                            <source src="music/38.wav" type="audio/wav">
+                            Your browser does not support audio playback. <a href="music/38.wav">Download Track 38</a>.
+                        </audio>
+                    </article>
+                </li>
+            </ol>
         </section>
 
         <section class="callout" aria-labelledby="callout-title">
             <div>
-                <p class="eyebrow">[Section label]</p>
-                <h2 id="callout-title">[Callout heading]</h2>
-                <p>[Callout description.]</p>
+                <p class="eyebrow">About &amp; contact</p>
+                <h2 id="callout-title">Learn more about the project</h2>
+                <p>Find artist details and check whether a contact method is available.</p>
             </div>
-            <a class="button button-primary" href="contact.html">[Contact action]</a>
+            <a class="button button-primary" href="contact.html">About &amp; contact</a>
         </section>
     </main>
 
     <footer class="site-footer">
         <a class="brand brand-footer" href="index.html">
-            <img src="Hundryd%20Logo%20Rounded%20Edge.png" width="32" height="32" alt="">
-            <span>[Artist name]</span>
+            <img src="assets/Hundryd%20Logo%20Rounded%20Edge.png" width="32" height="32" alt="">
+            <span>HUNDRYD</span>
         </a>
-        <p>[Footer text]</p>
-        <a class="text-link" href="contact.html">[Contact link]</a>
+        <p>Independent music by Hundryd.</p>
+        <a class="text-link" href="contact.html">About &amp; contact</a>
     </footer>
 </body>
 

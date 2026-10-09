@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Hundryd — Independent in Motion</title>
+  <desc id="desc">A monochrome planet surrounded by orbital paths and small stars.</desc>
+  <defs>
+    <radialGradient id="space" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#292929"/>
+      <stop offset="1" stop-color="#090909"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="34%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".62" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#777"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#space)"/>
+  <text x="64" y="78" fill="#fff" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="7">HUNDRYD</text>
+  <g fill="none" stroke="#aaa" stroke-width="1.5" opacity=".55">
+    <ellipse cx="320" cy="330" rx="252" ry="124" transform="rotate(-24 320 330)"/>
+    <ellipse cx="320" cy="330" rx="230" ry="156" transform="rotate(38 320 330)"/>
+    <ellipse cx="320" cy="330" rx="185" ry="237" transform="rotate(-55 320 330)"/>
+  </g>
+  <circle cx="320" cy="320" r="140" fill="url(#planet)"/>
+  <g fill="none" stroke="#777" stroke-width="2" opacity=".55">
+    <circle cx="320" cy="320" r="34"/>
+    <circle cx="320" cy="320" r="68"/>
+    <circle cx="320" cy="320" r="102"/>
+  </g>
+  <circle cx="320" cy="320" r="24" fill="#222"/>
+  <circle cx="320" cy="320" r="8" fill="#fff"/>
+  <g fill="#fff">
+    <circle cx="116" cy="372" r="8"/>
+    <circle cx="532" cy="206" r="7"/>
+  </g>
+  <g fill="none" stroke="#ddd" stroke-width="2">
+    <path d="M64 530h126M64 546h72"/>
+  </g>
+  <text x="64" y="584" fill="#ddd" font-family="Arial, sans-serif" font-size="12" letter-spacing="4">INDEPENDENT / IN MOTION</text>
+</svg>
